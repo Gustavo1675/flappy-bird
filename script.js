@@ -1,8 +1,8 @@
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 
-canvas.width = 1200;
-canvas.height = 700;
+canvas.width = 600;
+canvas.height = 400;
 
 /* PASSARINHO */
 let bird = {
@@ -115,3 +115,4 @@ function update(){
 }
 
 update();
+
